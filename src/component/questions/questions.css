@@ -1,0 +1,32 @@
+.questions-area {
+    z-index: 10;
+    width: 90%;
+    max-width: 874px;
+    max-height: 90%;
+    overflow-y: auto;
+}
+
+.questions-area::-webkit-scrollbar {
+    width: 0;
+}
+
+.btn-area {
+    margin-top: 48px;
+}
+
+.btn-area--checked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-area--checked p {
+    margin-right: 1.5rem;
+}
+
+@media (max-width: 722px) {
+    .btn-area {
+        margin-top: 36px;
+    }
+  
+}

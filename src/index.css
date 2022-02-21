@@ -1,0 +1,144 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #000;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --color-primary: #4D5B9E;
+  --font-size-loader: 20px;
+}
+
+/* Commom */
+.px-sm {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+.px-md {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.px-lg {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.px-xl {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+
+.py-sm {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
+.py-md {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.py-lg {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+
+.py-xl {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+
+/* App */
+.app {
+  width: 100%;
+  height: 100%;
+  background: #F5F7FB;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.app::before {
+  position: absolute;
+  content: "";
+  width: 297px;
+  height: 235px;
+  background: #FFFAD1;
+  border-radius: 130px;
+  transform: rotate(-128.49deg);
+  top: -126px;
+  right: -142px;
+}
+
+.app::after {
+  position: absolute;
+  content: "";
+  width: 297px;
+  height: 235px;
+  background: #DEEBF8;
+  border-radius: 90px;
+  transform: rotate(169deg);
+  bottom: -118px;
+  left: -138px;
+}
+
+@media (max-width: 974px) {
+  .app {
+    /* height: auto; */
+  }
+
+}
+
+@media (max-width: 800px) {
+  .app::before {
+    position: absolute;
+    content: "";
+    width: 257px;
+    height: 205px;
+    background: #FFFAD1;
+    border-radius: 130px;
+    transform: rotate(-128.49deg);
+    top: -106px;
+    right: -122px;
+  }
+  
+  .app::after {
+    position: absolute;
+    content: "";
+    width: 257px;
+    height: 205px;
+    background: #DEEBF8;
+    border-radius: 90px;
+    transform: rotate(169deg);
+    bottom: -118px;
+    left: -118px;
+  }
+
+}

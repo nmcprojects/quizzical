@@ -1,0 +1,33 @@
+
+
+.question-wrap {
+    /* padding: 1rem 0; */
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid #DBDEF0;
+    color: #293264;
+    width: 100%;
+    padding-bottom: 0.75rem;
+}
+
+.question-question {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.answer-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.answer-item {
+    margin-right: 1rem;
+    font-size: 1rem;
+    padding-top: 0.75rem;
+}
+
+
+
+@media (max-width: 722px) {
+    
+  
+}
