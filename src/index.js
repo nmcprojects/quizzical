@@ -16,7 +16,7 @@ ReactDOM.render(
       <Routes>
           <Route path="/react/quizzical-app" element={<App />}>
             <Route index element={<Start />}/>
-            <Route path="react/quizzical-app/questions" element={<Home />}/>
+            <Route path="questions" element={<Home />}/>
           </Route>
       </Routes>
     </BrowserRouter>
