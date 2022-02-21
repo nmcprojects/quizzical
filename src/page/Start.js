@@ -32,7 +32,7 @@ const Start = () => {
   const navigate = useNavigate();
 
   const onClickStart = () => {
-    navigate("/questions");
+    navigate("/react/quizzical-app/questions");
   }
     
   return (

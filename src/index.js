@@ -14,7 +14,7 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-          <Route path="/react/quizzical-app" element={<App />}>
+          <Route path="/react/quizzical-app/" element={<App />}>
             <Route index element={<Start />}/>
             <Route path="questions" element={<Home />}/>
           </Route>
