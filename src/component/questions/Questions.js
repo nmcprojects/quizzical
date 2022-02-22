@@ -102,7 +102,7 @@ const Questions = () => {
               </Button>) :
               <div className="btn-area--checked">
                 <p>You scored {correntQuestions}/{questions.length} corrent answers</p>
-                <Button  className="btn btn-lg btn-br-md " onClick={playAgain}>
+                <Button  className="btn btn-lg btn-br-md" onClick={playAgain}>
                   Play again
                 </Button>
               </div>

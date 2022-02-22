@@ -2,8 +2,9 @@
     z-index: 10;
     width: 90%;
     max-width: 874px;
-    max-height: 90%;
+    max-height: 100%;
     overflow-y: auto;
+    margin-top: 2.5rem;
 }
 
 .questions-area::-webkit-scrollbar {
@@ -12,6 +13,7 @@
 
 .btn-area {
     margin-top: 48px;
+    margin-bottom: 2.5rem;
 }
 
 .btn-area--checked {
